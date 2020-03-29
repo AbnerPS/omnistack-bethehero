@@ -1,5 +1,5 @@
 exports.up = function(knex) {
-    return knex.schema.createTable('incidents', table => {
+    return knex.schema.createTable('incidents', function (table) {
         table.increments() // Chave primaria com auto-increment
         table.string('title').notNullable()
         table.string('description').notNullable()

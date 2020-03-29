@@ -1,4 +1,4 @@
-const crypto = require('crypto') // lib do NODE para criptografia
+const generateUniqueId = require('../utils/generateUniqueId')
 const connect = require('../database/connection')
 
 module.exports = {
@@ -11,7 +11,7 @@ module.exports = {
 
     async create(request, response) {
         const {name, email, whatsapp, city, uf} = request.body
-        const id = crypto.randomBytes(4).toString('HEX') // gera uma string de 4 digitos e converte para hexadecimal
+        const id = generateUniqueId()
 
         await connect('ongs').insert({
             id,

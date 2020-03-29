@@ -63,6 +63,7 @@ export default function Register() {
                     />
 
                     <input
+                    maxLength="11"
                     placeholder="Whatsapp "
                     value={whatsapp}
                     onChange={e => setWhatsapp(e.target.value)}
@@ -76,6 +77,7 @@ export default function Register() {
                         />
 
                         <input
+                        maxLength="2"
                         placeholder="UF"
                         style={{ width: 80}}
                         value={uf}
