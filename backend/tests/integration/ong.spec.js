@@ -5,7 +5,7 @@ const connect = require('../../src/database/connection')
 describe('ONG', () => {
     beforeEach(async () => {
         await  connect.migrate.rollback()
-       await  connect.migrate.latest()
+        await  connect.migrate.latest()
     })
 
     afterAll(async () => {

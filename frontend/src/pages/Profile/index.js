@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './styles.css'
 import { Link, useHistory } from 'react-router-dom'
-import { FiPower, FiTrash2 } from 'react-icons/fi'
+import { FiPower, FiTrash2, FiGithub, FiLinkedin, FiFacebook, FiInstagram } from 'react-icons/fi'
 import logoImg from '../../assets/logo.svg'
 import api from '../../services/api'
 
@@ -47,8 +47,8 @@ export default function Profile() {
                 <img src={ logoImg } alt="Logo Be The Hero" />
                 <span>Bem vinda { ongName }, este é o seu painel de casos</span>
                 <Link className="button" to="/incidents/new">Cadastrar novo caso</Link>
-                <button onClick={ handleLogout }type="button">
-                    <FiPower size={18} color="#E02041"/>
+                <button onClick={ handleLogout } type="button">
+                    <FiPower size={18}/>
                 </button>
             </header>
 
@@ -78,6 +78,18 @@ export default function Profile() {
                 </li>
                 ))}
             </ul>
+
+            <footer className="footer">
+                <div className="developedby">
+                    Projeto desenvolvido por <strong>Abner Pereira Silva</strong> durante a semana OmniStack 11 da <a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a>
+                </div>
+                <div className="contact">
+                    <a href="https://github.com/AbnerPS" target="_blank">GitHub <FiGithub size={18}/></a>
+                    <a href="https://www.linkedin.com/in/abner-pereira-silva-8715a326/" target="_blank">Linkedin <FiLinkedin size={18}/></a>
+                    <a href="https://www.facebook.com/AbnerGuthiwill" target="_blank">Facebook <FiFacebook size={18}/></a>
+                    <a href="https://www.instagram.com/abner.p.s/" target="_blank">Instagram <FiInstagram size={18}/></a>
+                </div>
+            </footer>
         </div>
     )
 }

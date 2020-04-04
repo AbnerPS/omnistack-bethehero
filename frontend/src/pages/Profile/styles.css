@@ -33,10 +33,12 @@
     background: transparent;
     margin-left: 16px;
     transition: border-color 0.2s;
+    color: #dcdce6;
 }
 
 .profile-container header button:hover {
-    border-color: red;
+    border-color: #e02041;
+    color: #e02041;
 }
 
 .profile-container h1 {
@@ -84,4 +86,48 @@
     color: #737380;
     line-height: 21px;
     font-size: 16px;
+}
+
+.footer {
+    position: absolute;
+    left: 0;
+    display: block;
+    background-color: #fff;
+    margin-top: 20px;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+}
+
+.developedby {
+    margin-top: 20px;
+}
+
+.developedby a {
+    text-decoration: none;
+    color: rgb(113, 89, 193);
+}
+
+.contact {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+.contact a {
+    text-decoration: none;
+    background-color: #e02041;
+    color: #fff;
+    border-radius: 8px;
+    margin: 0px 20px;
+    padding: 10px;
+    text-align: center;
+    transition: 0.2s;
+}
+
+.contact a:hover {
+    opacity: 0.9;
+    box-shadow: 5px 5px black;
 }
