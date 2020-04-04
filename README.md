@@ -3,7 +3,7 @@
 <br>Projeto Be The Hero - Seja um heroi para alguém
 </h4>
 <p align="center">
-    <img src="https://img.shields.io/badge/Version-0.5-red.svg"/>
+    <img src="https://img.shields.io/badge/Version-1.0-red.svg"/>
     <img src="https://img.shields.io/badge/License-MIT-red.svg"/>
 </p>
 
