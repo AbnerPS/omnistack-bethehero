@@ -81,13 +81,13 @@ export default function Profile() {
 
             <footer className="footer">
                 <div className="developedby">
-                    Projeto desenvolvido por <strong>Abner Pereira Silva</strong> durante a semana OmniStack 11 da <a href="https://rocketseat.com.br/" target="_blank">Rocketseat</a>
+                    Projeto desenvolvido por <strong>Abner Pereira Silva</strong> durante a semana OmniStack 11 da <a href="https://rocketseat.com.br/" target="_blank" rel="noopener noreferrer">Rocketseat</a>
                 </div>
-                <div className="contact">
-                    <a href="https://github.com/AbnerPS" target="_blank">GitHub <FiGithub size={18}/></a>
-                    <a href="https://www.linkedin.com/in/abner-pereira-silva-8715a326/" target="_blank">Linkedin <FiLinkedin size={18}/></a>
-                    <a href="https://www.facebook.com/AbnerGuthiwill" target="_blank">Facebook <FiFacebook size={18}/></a>
-                    <a href="https://www.instagram.com/abner.p.s/" target="_blank">Instagram <FiInstagram size={18}/></a>
+                <div className="contact" rel="noopener noreferrer">
+                    <a href="https://github.com/AbnerPS" target="_blank" rel="noopener noreferrer">GitHub <FiGithub size={18}/></a>
+                    <a href="https://www.linkedin.com/in/abner-pereira-silva-8715a326/" target="_blank" rel="noopener noreferrer">Linkedin <FiLinkedin size={18}/></a>
+                    <a href="https://www.facebook.com/AbnerGuthiwill" target="_blank" rel="noopener noreferrer">Facebook <FiFacebook size={18}/></a>
+                    <a href="https://www.instagram.com/abner.p.s/" target="_blank" rel="noopener noreferrer">Instagram <FiInstagram size={18}/></a>
                 </div>
             </footer>
         </div>
